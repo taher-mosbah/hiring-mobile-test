@@ -93,13 +93,13 @@ Tapping a vehicle on the homes screen should navigate to a “details” page.  
   
 
 **HOMESCREEN**  
-![HomeScreen](https://user-images.githubusercontent.com/1773577/95654190-47eed880-0af6-11eb-8826-773c39c9e684.png)
+![HomeScreen](https://raw.githubusercontent.com/cuvva/hiring-mobile-test/update12Oct2020/HomeScreen.png)
 
 **DETAILSCREEN WITH ACTIVE POLICY**
-![ActiveDetail](https://user-images.githubusercontent.com/1773577/95654188-458c7e80-0af6-11eb-9ae3-d93a26403bce.png)
+![ActiveDetail](https://raw.githubusercontent.com/cuvva/hiring-mobile-test/update12Oct2020/ActiveDetail.png)
 
 **DETAIL SCREEN WITTH NO ACTIVE POLICY AND EXTENSION**
-![InactiveDetail](https://user-images.githubusercontent.com/1773577/95654192-48876f00-0af6-11eb-9fe1-94fd55274f60.png)
+![InactiveDetail](https://raw.githubusercontent.com/cuvva/hiring-mobile-test/update12Oct2020/InactiveDetail.png)
 
   
 
