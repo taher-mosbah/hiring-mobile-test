@@ -93,16 +93,16 @@ Tapping a vehicle on the homes screen should navigate to a “details” page.  
   
 
 **HOMESCREEN**  
-![HomeScreen](HomeScreen.png)
+![HomeScreen - If image is missing please notify Cuvva](HomeScreen.png)
 
 **DETAILSCREEN WITH ACTIVE POLICY**
-![ActiveDetail](ActiveDetail.png)
+![ActiveDetail - If image is missing please notify Cuvva](ActiveDetail.png)
 
 **DETAIL SCREEN WITTH NO ACTIVE POLICY AND EXTENSION**
-![InactiveDetail](InactiveDetail.png)
+![InactiveDetail - If image is missing please notify Cuvva](InactiveDetail.png)
 
 **DETAIL SCREEN WITTH A VOIDED POLICY**
-![VoidedDetaill](VoidedPolicy.png)
+![VoidedDetaill - If image is missing please notify Cuvva](VoidedPolicy.png)
 
 ## Completion
 
