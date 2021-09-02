@@ -1,6 +1,6 @@
 import Foundation
 
-class Vehicle: Identifiable, ObservableObject {
+class Vehicle: Identifiable, ObservableObject, Equatable {
     
     let id: String
     let displayVRM: String
@@ -16,5 +16,8 @@ class Vehicle: Identifiable, ObservableObject {
         self._activePolicy = .init(initialValue: activePolicy)
         self._historicalPolicies = .init(wrappedValue: historicalPolicies)
     }
-    
+
+    static func == (lhs: Vehicle, rhs: Vehicle) -> Bool {
+        lhs.displayVRM == rhs.displayVRM
+    }
 }

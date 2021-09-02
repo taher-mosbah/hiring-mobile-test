@@ -29,6 +29,10 @@
 		2E6AE0CD2649CAEB00EF31D6 /* CuvvaTechTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6AE0CC2649CAEB00EF31D6 /* CuvvaTechTestTests.swift */; };
 		2E6AE0D82649CAEB00EF31D6 /* CuvvaTechTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6AE0D72649CAEB00EF31D6 /* CuvvaTechTestUITests.swift */; };
 		2E6AE0E6264FAE3200EF31D6 /* EnviromentFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6AE0E5264FAE3200EF31D6 /* EnviromentFormatters.swift */; };
+		6D181B7726D6F49000702082 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D181B7626D6F49000702082 /* ModelTests.swift */; };
+		6D181B7926D6F97500702082 /* LivePolicyTermFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D181B7826D6F97500702082 /* LivePolicyTermFormatterTests.swift */; };
+		6D3F0BBB26D6FF6600F521F2 /* LivePolicyEventsProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F0BBA26D6FF6600F521F2 /* LivePolicyEventsProcessorTests.swift */; };
+		6D3F0BBE26D7065000F521F2 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F0BBD26D7065000F521F2 /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +82,10 @@
 		2E6AE0D92649CAEB00EF31D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E6AE0E5264FAE3200EF31D6 /* EnviromentFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentFormatters.swift; sourceTree = "<group>"; };
 		5B27D9E4266A38DB003127C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6D181B7626D6F49000702082 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		6D181B7826D6F97500702082 /* LivePolicyTermFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePolicyTermFormatterTests.swift; sourceTree = "<group>"; };
+		6D3F0BBA26D6FF6600F521F2 /* LivePolicyEventsProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePolicyEventsProcessorTests.swift; sourceTree = "<group>"; };
+		6D3F0BBD26D7065000F521F2 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +205,7 @@
 		2E6AE0B92649CAE900EF31D6 /* CuvvaTechTest */ = {
 			isa = PBXGroup;
 			children = (
+				6D3F0BBC26D7063E00F521F2 /* Extensions */,
 				2E33524926540E620004CD5A /* Processor */,
 				2E33523A26540CDD0004CD5A /* Enviroment */,
 				2E3352352652F5900004CD5A /* Models */,
@@ -223,6 +232,9 @@
 			children = (
 				2E6AE0CC2649CAEB00EF31D6 /* CuvvaTechTestTests.swift */,
 				2E6AE0CE2649CAEB00EF31D6 /* Info.plist */,
+				6D181B7626D6F49000702082 /* ModelTests.swift */,
+				6D181B7826D6F97500702082 /* LivePolicyTermFormatterTests.swift */,
+				6D3F0BBA26D6FF6600F521F2 /* LivePolicyEventsProcessorTests.swift */,
 			);
 			path = CuvvaTechTestTests;
 			sourceTree = "<group>";
@@ -234,6 +246,14 @@
 				2E6AE0D92649CAEB00EF31D6 /* Info.plist */,
 			);
 			path = CuvvaTechTestUITests;
+			sourceTree = "<group>";
+		};
+		6D3F0BBC26D7063E00F521F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F0BBD26D7065000F521F2 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,6 +394,7 @@
 				2E3352392652FA6F0004CD5A /* Theme.swift in Sources */,
 				2E6AE0E6264FAE3200EF31D6 /* EnviromentFormatters.swift in Sources */,
 				2E3352332652F3520004CD5A /* DetailView.swift in Sources */,
+				6D3F0BBE26D7065000F521F2 /* Date+Extensions.swift in Sources */,
 				2E33524D26540E970004CD5A /* Vehicle.swift in Sources */,
 				2E33524426540D5A0004CD5A /* PolicyTermFormatterProtocol.swift in Sources */,
 				2E33525126540F070004CD5A /* MockPolicyEventProcessor.swift in Sources */,
@@ -391,6 +412,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E6AE0CD2649CAEB00EF31D6 /* CuvvaTechTestTests.swift in Sources */,
+				6D181B7926D6F97500702082 /* LivePolicyTermFormatterTests.swift in Sources */,
+				6D3F0BBB26D6FF6600F521F2 /* LivePolicyEventsProcessorTests.swift in Sources */,
+				6D181B7726D6F49000702082 /* ModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

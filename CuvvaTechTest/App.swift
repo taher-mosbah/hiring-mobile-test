@@ -4,8 +4,7 @@ import Combine
 @main
 struct CuvvaTechTestApp: App {
     
-    // TODO: Replace mocks with custom implementations
-    private static let useLive: Bool = false
+    private static let useLive: Bool = true
     
     private var appModel: AppViewModel = {
         
@@ -26,24 +25,8 @@ struct CuvvaTechTestApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView(model: appModel)
-        
-            
-            /**
-                TODO: Supply own PolicyTermFormatter implementation
-            */
-            
-//               .environment(\.policyTermFormatter, LivePolicyTermFormatter())
-            
-            
-            /**
-                The app uses a static time by default
-                TODO: Uncomment the line below to use the device time
-            */
-            
-//               .environment(\.now, LiveTime())
-            
-            
-            
+               .environment(\.policyTermFormatter, LivePolicyTermFormatter())
+               .environment(\.now, FixedTime())
         }
     }
 }
